@@ -5,10 +5,10 @@
 }
 /** logo **/
 .logotopleft {
-    position: relative;
-    right: 50px;
-    height: 20em;
-    width: 20em;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+width: 20%;
     background-position: top left;
     margin-top: 10px
 }
@@ -381,25 +381,28 @@ footer {
 /**inicio contactanos**/
 .p1contactanos {
     display: flex;
-    position: relative;
-    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     font-size: large;
     text-align: left;
-    left: 500px;
+    margin-bottom: 30px;
+    
 }
-.formulariocontacto {
+.contenedor-form {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: flex-start;
+}
+.form-interno {
     display: flex;
-    position: relative;
-    font-size: large;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: left;
 }
-.p2contactanos {
-    display: block;
-    position: relative;
-    font-size: large;
-    width: 20%;
-    left: 1200px;
-    bottom: 200px;
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
