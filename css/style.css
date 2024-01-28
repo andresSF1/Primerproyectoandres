@@ -1,360 +1,272 @@
-* {
-    margin: 0;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-}
-/** logo **/
-.logotopleft {
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-width: 20%;
-    background-position: top left;
-    margin-top: 10px
-}
-/** font family**/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-/** font-family: 'Roboto', sans-serif; **/
-
-/** HEADER **/
-.headerp {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    padding: 15px 200px;
-    background-color: rgba(0,20,70,255);
-    color: rgba(0,169,92,255);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+.contenedor-footer .social-link, .contenedor-footer .footer-especialidades, .contenedor-footer, .linksh, .headerp .hp1, .headerp .hp2, .headerp {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.hp1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+.linksh .linksh1 {
+  text-decoration: none;
+  color: green;
 }
-.hp2 { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+
+.contenedor-footer .social-link, .contenedor-footer .footer-especialidades, .contenedor-footer, .linksh, .headerp .hp1, .headerp .hp2, .headerp {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.linksh .linksh1 {
+  text-decoration: none;
+  color: green;
+}
+
 @media only screen and (max-width: 500px) {
-
-.headerp {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    background-color: rgba(0,20,70,255);
-    color: rgba(0,169,92,255);
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+  .headerp {
     padding: 15px 20px;
-}
-.hp1 {
-    display: flex;
-        justify-content: left;
-        flex-wrap: wrap;
-        margin-top: 20px;
-}
-.hp2 { 
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
+  }
+  .headerp .hp1, .headerp .hp2 {
     margin-top: 20px;
+  }
 }
+
+@media only screen and (max-width: 500px), (min-width: 501px) and (max-width: 960px) {
+  .social-link {
+    justify-content: center;
+    margin-top: 20px;
+  }
 }
+.logotopleft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 20%;
+  background-position: top left;
+  margin-top: 10px;
+}
+
+.headerp {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 15px 200px;
+  background-color: rgb(0, 20, 70);
+  color: rgb(0, 169, 92);
+  align-items: center;
+  justify-content: space-between;
+}
+.headerp .hp1, .headerp .hp2 {
+  justify-content: left;
+}
+
 .linksh {
-    display: flex;
-    position: relative;
-    bottom: 100px;
-    justify-content: end;
+  position: relative;
+  bottom: 100px;
+  justify-content: end;
+}
+.linksh .linksh1 {
+  margin: 20px;
 }
 
-.linksh1 {
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    color: green;
-    margin: 20px;
-    justify-content: end;
-}
-
-/** fin header**/
-
-/** inicio footer **/
-
-.contenedor-footer {
-    color: rgba(0,169,92,255);
-    background-color: rgba(0,20,70,255) ;
-    padding: 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.lista-footer1 {
-margin-top: 0px;
-}
-.footer-especialidades {
-    display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-}
-footer {
-    position: relative;
-    bottom: 0%;
-    width: 100%;
-}
-
-.social-link {
-    display: flex;
-    justify-content: end;
-    flex-wrap: wrap;
-    align-items: start;
-    margin-right: 20px;
-    flex-direction: column;
-}
-
-.link1 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-}
-/* media query footer responsive */
-@media only screen and (max-width: 500px) {
-    .social-link{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .link1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .contenedor-footer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 20px;
-    }
-}
-@media only screen and (min-width: 501px) and (max-width: 960px) {
-    .social-link{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .link1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .contenedor-footer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 20px;
-    }
-}
-/* fin mq footer responsive */
-
-/** fin footer**/
-
-/**inicio main **/
 .bannerimg {
-    display: flex;
-    position: relative;
-    justify-content: center;    
-    width: 100%;
-    height: 400px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
 }
 .bannerimg img {
-    width: 100%;
-    margin: 5px;
+  width: 100%;
+  margin: 5px;
 }
+
 .inicio-texto1 {
-    text-align: center;
-    margin: 50px;
+  text-align: center;
+  margin: 50px;
 }
 
-/** inicito pestaña servicios **/
 .contenedor-servicios {
-    display: flex;
-    flex-wrap: wrap;
-}
-.col1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 30px;
-    height: 70%;
-    width: 70%;
-}
-.colt1 { 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: left;
-}
-.col2 {
-   display: flex;
-   height: 70%;
-   width: 70%;
-   justify-content: center;
-   margin-bottom: 30px;
-}
-.colt2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: right;
-}
-.colt3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: left;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.col3 {
-    display: flex;
-   height: 70%;
-   width: 70%;
-   justify-content: center;
-   margin-bottom: 30px;
+.col1, .col2, .col3, .col4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 70%;
+  width: 70%;
 }
-.col4 {
-    display: flex;
-    height: 70%;
-    width: 70%;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-.colt4 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: left;
-}
-/** fin pestaña servicios **/
 
-/** inicio pestaña quienes somos**/
+.colt1, .colt2, .colt3, .colt4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+}
+
 .quienessomost {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
-.logoquienes {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-.textologoquienes {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    margin-top: 20%;
-    justify-content: center;
-}
-.conoceprofesionales {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-.imagenesqs{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 50%;
-    margin-top: 50px;
-    margin-left: 25%;
-}
-.textoimagenesqs {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
 
+.logoquienes {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  transform: rotate(-3deg);
+  box-shadow: 30px 2px 235px -11px rgba(0, 0, 0, 0.93);
+  -webkit-box-shadow: 30px 2px 235px -11px rgba(0, 0, 0, 0.93);
+  -moz-box-shadow: 30px 2px 235px -11px rgba(0, 0, 0, 0.93);
+  transition: 1s;
 }
-/** fin de pestaña quienes somos**/
-/** inicio pestaña test y ev.**/
+.logoquienes:hover {
+  transform: rotate(3deg);
+}
+
+.textologoquienes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-top: 20%;
+  justify-content: center;
+}
+
+.conoceprofesionales {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.imagenesqs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 25%;
+}
+
+.textoimagenesqs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
 .ptestyev {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-width: 100%;
-padding: 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 30px;
 }
 
 .ptestyev1 {
-    width: 50%;
-}
-.testyevto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 30px;
-}
-.relojimg {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 30px 30px;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.parrafostyv{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.relojes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-/**fin tests**/
-/**inicio contactanos**/
-.p1contactanos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    font-size: large;
-    text-align: left;
-    margin-bottom: 30px;
-    
-}
-.contenedor-form {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-justify-content: flex-start;
-}
-.form-interno {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+  width: 50%;
 }
 
-.form-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.testyevto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
 }
+
+.relojimg {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 30px 30px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.parrafostyv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.relojes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.p1contactanos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  font-size: large;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contenedor-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+.contenedor-form .form-interno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.contenedor-form .form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.contenedor-footer {
+  color: rgb(0, 169, 92);
+  background-color: rgb(0, 20, 70);
+  padding: 50px 0;
+  justify-content: space-between;
+}
+.contenedor-footer .lista-footer1 {
+  margin-top: 0px;
+}
+.contenedor-footer .footer-especialidades {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.contenedor-footer footer {
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+}
+.contenedor-footer .social-link {
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.contenedor-footer .social-link .link1 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 500px), (min-width: 501px) and (max-width: 960px) {
+  .contenedor-footer .social-link {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .contenedor-footer .link1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-footer .contenedor-footer {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

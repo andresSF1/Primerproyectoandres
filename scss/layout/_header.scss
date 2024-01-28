@@ -1,0 +1,35 @@
+//HEADER ESTILOS
+.logotopleft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 20%;
+    background-position: top left;
+    margin-top: 10px;
+  }
+.headerp {
+    @include font-family;
+    padding: 15px 200px;
+    background-color: $header-bg-color;
+    color: $header-text-color;
+    @extend %flex-container;
+    align-items: center;
+    justify-content: space-between;
+  
+    .hp1, .hp2 {
+      @extend %flex-container;
+      justify-content: left;
+    }
+    }
+  
+  .linksh {
+    @extend %flex-container;
+    position: relative;
+    bottom: 100px;
+    justify-content: end;
+  
+    .linksh1 {
+      @extend %link-style;
+      margin: 20px;
+    }
+  }

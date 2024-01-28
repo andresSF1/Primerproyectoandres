@@ -1,0 +1,10 @@
+%flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  // Extend para los enlaces
+  %link-style {
+    text-decoration: none;
+    color: green;
+  }

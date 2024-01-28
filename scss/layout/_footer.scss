@@ -1,0 +1,54 @@
+//FOOTER ESTILOS
+.contenedor-footer {
+    color: $footer-text-color;
+    background-color: $footer-bg-color;
+    padding: 50px 0;
+    @extend %flex-container;
+    justify-content: space-between;
+  
+    .lista-footer1 {
+      margin-top: 0px;
+    }
+  
+    .footer-especialidades {
+      @extend %flex-container;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+  
+    footer {
+      position: relative;
+      bottom: 0%;
+      width: 100%;
+    }
+  
+    .social-link {
+      @extend %flex-container;
+      justify-content: end;
+      align-items: start;
+      flex-direction: column;
+      margin-right: 20px;
+  
+      .link1 {
+        font-size: 30px;
+      }
+    }
+  
+    @media only screen and (max-width: 500px), (min-width: 501px) and (max-width: 960px) {
+      .social-link {
+        justify-content: center;
+        margin-top: 20px;
+      }
+  
+      .link1 {
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .contenedor-footer {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+    }
+  }
