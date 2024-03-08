@@ -18,14 +18,12 @@
   color: green;
 }
 
-@media only screen and (max-width: 500px) {
-  .headerp {
-    padding: 15px 20px;
-  }
-  .headerp .hp1, .headerp .hp2 {
-    margin-top: 20px;
-  }
+.holamundo {
+  background-color: #3cb371;
+  width: 100%;
+  height: 60px;
 }
+
 
 @media only screen and (max-width: 500px), (min-width: 501px) and (max-width: 960px) {
   .social-link {
@@ -42,18 +40,6 @@
   margin-top: 10px;
 }
 
-.headerp {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  padding: 15px 200px;
-  background-color: rgb(0, 20, 70);
-  color: rgb(0, 169, 92);
-  align-items: center;
-  justify-content: space-between;
-}
-.headerp .hp1, .headerp .hp2 {
-  justify-content: left;
-}
 
 .linksh {
   position: relative;
